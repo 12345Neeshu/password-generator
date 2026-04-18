@@ -1,0 +1,60 @@
+.password-box {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.output-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    /* flex: 1; */
+}
+
+.output-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.output-box button {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    background: #00c6ff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generate-btn {
+    padding: 10px;
+    background: #00c6ff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
